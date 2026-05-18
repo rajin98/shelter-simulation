@@ -1,0 +1,5 @@
+visualizer/.venv/
+solver/target/
+*.class
+*.json
+!requirements*.json
