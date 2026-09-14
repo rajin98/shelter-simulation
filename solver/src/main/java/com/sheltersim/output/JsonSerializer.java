@@ -4,7 +4,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import com.sheltersim.engine.OrientationCache;
 import com.sheltersim.model.Configuration;
+import com.sheltersim.model.Orientation;
 import com.sheltersim.model.PlacedObject;
 
 import java.io.FileWriter;
@@ -19,8 +21,10 @@ public class JsonSerializer {
 
     public void write(List<Configuration> configs,
                       long evaluated, long valid, long runtimeMs,
-                      String outputPath) throws IOException {
+                      String outputPath, OrientationCache cache) throws IOException {
         JsonObject root = new JsonObject();
+
+        root.add("orientations", serializeOrientations(cache));
 
         JsonObject stats = new JsonObject();
         stats.addProperty("evaluated", evaluated);
@@ -34,10 +38,30 @@ public class JsonSerializer {
     }
 
     // Working copy: no stats block, no rank field.
-    public void writeWorkingCopy(List<Configuration> configs, String path) throws IOException {
+    public void writeWorkingCopy(List<Configuration> configs, String path,
+                                 OrientationCache cache) throws IOException {
         JsonObject root = new JsonObject();
+        root.add("orientations", serializeOrientations(cache));
         root.add("configurations", serializeConfigs(configs, false));
         writeTo(root, path);
+    }
+
+    private JsonObject serializeOrientations(OrientationCache cache) {
+        JsonObject obj = new JsonObject();
+        for (Orientation o : cache.getShelterOrientations())
+            obj.add("Shelter/" + o.id, cellMapToJson(o.cellMap));
+        for (Orientation o : cache.getKitchenOrientations())
+            obj.add("Kitchen/" + o.id, cellMapToJson(o.cellMap));
+        for (Orientation o : cache.getBathroomOrientations())
+            obj.add("Bathroom/" + o.id, cellMapToJson(o.cellMap));
+        return obj;
+    }
+
+    private JsonArray cellMapToJson(char[][] cellMap) {
+        JsonArray arr = new JsonArray();
+        for (char[] row : cellMap)
+            arr.add(new String(row));
+        return arr;
     }
 
     private JsonArray serializeConfigs(List<Configuration> configs, boolean includeRank) {
@@ -45,7 +69,20 @@ public class JsonSerializer {
         for (Configuration cfg : configs) {
             JsonObject c = new JsonObject();
             if (includeRank) c.addProperty("rank", cfg.rank);
+            int sumBath = 0, sumKit = 0;
+            for (int d : cfg.bathroomDists) sumBath += d;
+            for (int d : cfg.kitchenDists)  sumKit  += d;
             c.addProperty("score", cfg.score);
+            c.addProperty("bathroomDistance", sumBath);
+            c.addProperty("kitchenDistance", sumKit);
+            c.addProperty("bathroomDistanceNormalized", cfg.bathroomDistanceNormalized);
+            c.addProperty("kitchenDistanceNormalized", cfg.kitchenDistanceNormalized);
+            JsonArray bathArr = new JsonArray();
+            for (int d : cfg.bathroomDists) bathArr.add(d);
+            JsonArray kitArr = new JsonArray();
+            for (int d : cfg.kitchenDists)  kitArr.add(d);
+            c.add("bathroomDists", bathArr);
+            c.add("kitchenDists", kitArr);
             c.add("objects", serializeObjects(cfg.objects));
             arr.add(c);
         }
@@ -62,32 +99,12 @@ public class JsonSerializer {
             obj.addProperty("orientationId", p.orientation.id);
             obj.addProperty("topLeftRow", p.topLeftRow);
             obj.addProperty("topLeftCol", p.topLeftCol);
-            obj.add("cells", serializeCells(p));
             arr.add(obj);
         }
         return arr;
     }
 
-    private JsonArray serializeCells(PlacedObject p) {
-        JsonArray arr = new JsonArray();
-        int rows = p.orientation.rows;
-        int cols = p.orientation.cols;
-        for (int dr = 0; dr < rows; dr++) {
-            for (int dc = 0; dc < cols; dc++) {
-                char ch = p.orientation.cellMap[dr][dc];
-                if (ch == '0') continue;
-                JsonObject cell = new JsonObject();
-                cell.addProperty("row", p.topLeftRow + dr);
-                cell.addProperty("col", p.topLeftCol + dc);
-                cell.addProperty("label", String.valueOf(ch));
-                arr.add(cell);
-            }
-        }
-        return arr;
-    }
-
     private void writeTo(JsonObject root, String path) throws IOException {
-        // Ensure parent directories exist.
         java.io.File file = new java.io.File(path);
         java.io.File parent = file.getParentFile();
         if (parent != null) parent.mkdirs();

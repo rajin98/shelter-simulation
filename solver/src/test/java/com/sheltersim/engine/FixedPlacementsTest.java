@@ -34,7 +34,7 @@ class FixedPlacementsTest {
     @Test
     void build_validKitchen_noException() {
         FixedPlacements fp = FixedPlacements.builder(cache)
-                .kitchen("R0", 0, 0)
+                .kitchen("Portrait", 0, 0)
                 .build();
         assertTrue(fp.kitchen.isPresent());
     }
@@ -42,12 +42,12 @@ class FixedPlacementsTest {
     @Test
     void build_bathroomAndKitchenFarEnough_noException() {
         // Bathroom Portrait at (0,0): solid cols 0-3
-        // Kitchen R0 at (0,7): solid cols 7-10
-        // Nearest pair: (0,3)–(0,7) Chebyshev = 4 >= 3 and >= 2 — both buffers satisfied
+        // Kitchen Portrait at (0,7): solid cols 7-12
+        // Nearest pair: (0,3)–(0,7) Chebyshev = 4 — both buffers satisfied
         assertDoesNotThrow(() ->
                 FixedPlacements.builder(cache)
                         .bathroom("Portrait", 0, 0)
-                        .kitchen("R0", 0, 7)
+                        .kitchen("Portrait", 0, 7)
                         .build());
     }
 
@@ -67,12 +67,12 @@ class FixedPlacementsTest {
     @Test
     void build_bathroomKitchenTooClose_throwsR1() {
         // Bathroom Portrait at (0,0): nearest solid cell at col 3
-        // Kitchen R0 at (0,5): nearest solid cell at col 5
-        // Chebyshev distance = 2 < 3 → R1 violation
+        // Kitchen Portrait at (0,5): nearest solid cell at col 5
+        // Chebyshev distance = 2 < 4 → R1 violation
         assertThrows(InvalidPlacementException.class, () ->
                 FixedPlacements.builder(cache)
                         .bathroom("Portrait", 0, 0)
-                        .kitchen("R0", 0, 5)
+                        .kitchen("Portrait", 0, 5)
                         .build());
     }
 

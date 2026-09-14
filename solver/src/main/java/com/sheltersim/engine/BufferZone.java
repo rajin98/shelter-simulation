@@ -5,12 +5,34 @@ import com.sheltersim.model.Orientation;
 public class BufferZone {
 
     private final boolean[][] exclusionZone = new boolean[Grid.ROWS][Grid.COLS];
-    private final int[] sourceSolids;
-    private final int bufferDist;
+    private int[] sourceSolids;
+    private int bufferDist;
 
     private BufferZone(int[] sourceSolids, int bufferDist) {
         this.sourceSolids = sourceSolids;
-        this.bufferDist = bufferDist;
+        this.bufferDist   = bufferDist;
+        fill();
+    }
+
+    // No-arg: creates an empty zone ready for reset(). Package-private so Solver can
+    // allocate a reusable instance without going through the static factory.
+    BufferZone() {}
+
+    public static BufferZone build(int[] sourceSolids, int bufferDist) {
+        return new BufferZone(sourceSolids, bufferDist);
+    }
+
+    // Clears the existing exclusion zone and rebuilds from new source solids.
+    // Lets the caller reuse one BufferZone object across many kitchen placements
+    // instead of allocating a fresh boolean[21][27] each time.
+    public void reset(int[] sourceSolids, int bufferDist) {
+        for (boolean[] row : exclusionZone) java.util.Arrays.fill(row, false);
+        this.sourceSolids = sourceSolids;
+        this.bufferDist   = bufferDist;
+        fill();
+    }
+
+    private void fill() {
         // Mark all in-bounds cells at Chebyshev distance < bufferDist from each source cell.
         // Chebyshev ball of radius (bufferDist-1) is a square: |dr| <= d, |dc| <= d.
         int d = bufferDist - 1;
@@ -26,10 +48,6 @@ public class BufferZone {
                 }
             }
         }
-    }
-
-    public static BufferZone build(int[] sourceSolids, int bufferDist) {
-        return new BufferZone(sourceSolids, bufferDist);
     }
 
     public boolean isExcluded(int r, int c) {

@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import sys
+from collections import defaultdict
 
 from renderer import render_configuration
 
@@ -20,6 +21,13 @@ def ensure_dir(path: str) -> None:
     os.makedirs(path, exist_ok=True)
 
 
+def build_rank_map(configs: list[dict]) -> dict[int, list[dict]]:
+    rank_map: dict[int, list[dict]] = defaultdict(list)
+    for cfg in configs:
+        rank_map[cfg.get('rank', 0)].append(cfg)
+    return rank_map
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog='visualizer',
@@ -35,7 +43,7 @@ def main() -> None:
     mode.add_argument('--all', action='store_true',
                       help='Render every configuration (requires --export-dir)')
 
-    parser.add_argument('--export-dir', metavar='DIR',
+    parser.add_argument('--export-dir', metavar='DIR', default='out',
                         help='Directory to save PNG files (required with --all)')
 
     args = parser.parse_args()
@@ -45,33 +53,43 @@ def main() -> None:
 
     data = load_json(args.output_json)
     configs = data.get('configurations', [])
+    orientations = data.get('orientations', {})
+    rank_map = build_rank_map(configs)
 
     if args.rank is not None:
         # T12.2 — render single rank
-        matches = [c for c in configs if c.get('rank') == args.rank]
-        if not matches:
+        group = rank_map.get(args.rank)
+        if not group:
             sys.exit(f'Error: no configuration with rank {args.rank}')
-        _render(matches[0], args.rank, args.export_dir)
+        for idx, cfg in enumerate(group):
+            _render(cfg, args.rank, idx, args.export_dir, orientations)
 
     elif args.top is not None:
         # T12.3 — render top N
         top = configs[:args.top]
+        rank_indices: dict[int, int] = defaultdict(int)
         for cfg in top:
-            _render(cfg, cfg.get('rank', 0), args.export_dir)
+            rank = cfg.get('rank', 0)
+            _render(cfg, rank, rank_indices[rank], args.export_dir, orientations)
+            rank_indices[rank] += 1
 
     elif args.all:
         # T12.4 — render all
+        rank_indices = defaultdict(int)
         for cfg in configs:
-            _render(cfg, cfg.get('rank', 0), args.export_dir)
+            rank = cfg.get('rank', 0)
+            _render(cfg, rank, rank_indices[rank], args.export_dir, orientations)
+            rank_indices[rank] += 1
 
 
-def _render(config: dict, rank: int, export_dir: str | None) -> None:
+def _render(config: dict, rank: int, idx: int, export_dir: str | None,
+            orientations: dict) -> None:
     if export_dir:
         ensure_dir(export_dir)
-        path = os.path.join(export_dir, f'rank_{rank}.png')
+        path = os.path.join(export_dir, f'rank_{rank}_{idx}.png')
     else:
         path = None
-    render_configuration(config, path)
+    render_configuration(config, orientations, path)
     if path:
         print(f'Saved: {path}')
 

@@ -58,30 +58,30 @@ class OrientationCacheTest {
     // --- Kitchen ---
 
     @Test
-    void kitchenHasFourOrientations() {
-        assertEquals(4, cache.getKitchenOrientations().size());
+    void kitchenHasTwoOrientations() {
+        assertEquals(2, cache.getKitchenOrientations().size());
     }
 
     @Test
-    void kitchenR0Dimensions() {
-        Orientation r0 = cache.getKitchenOrientations().get(0);
-        assertEquals("R0", r0.id);
-        assertEquals(6, r0.rows);
-        assertEquals(4, r0.cols);
+    void kitchenPortraitDimensions() {
+        Orientation portrait = cache.getKitchenOrientations().get(0);
+        assertEquals("Portrait", portrait.id);
+        assertEquals(4, portrait.rows);
+        assertEquals(6, portrait.cols);
     }
 
     @Test
-    void kitchenR90Dimensions() {
-        Orientation r90 = cache.getKitchenOrientations().get(1);
-        assertEquals("R90", r90.id);
-        assertEquals(4, r90.rows);
-        assertEquals(6, r90.cols);
+    void kitchenLandscapeDimensions() {
+        Orientation landscape = cache.getKitchenOrientations().get(1);
+        assertEquals("Landscape", landscape.id);
+        assertEquals(6, landscape.rows);
+        assertEquals(4, landscape.cols);
     }
 
     @Test
     void kitchenSolidCountPreservedAcrossAllOrientations() {
         int expected = solidCount(cache.getKitchenOrientations().get(0));
-        assertEquals(24, expected); // all cells solid in a 6×4 grid
+        assertEquals(24, expected); // all cells solid in a 4×6 grid
         for (Orientation o : cache.getKitchenOrientations())
             assertEquals(expected, solidCount(o), "Solid count mismatch in " + o.id);
     }

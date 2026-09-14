@@ -18,6 +18,7 @@ public class Solver implements Callable<SolverResult> {
     private final AtomicLong remaining; // shared across tasks; Long.MAX_VALUE = unlimited
     private final Grid grid = new Grid();
     private final BfsPathFinder bfs = new BfsPathFinder();
+    private final BufferZone kitBufferReuse = new BufferZone(); // reused across kitchen candidates
     private final List<Configuration> results = new ArrayList<>();
     private final Set<String> seen = new HashSet<>();
     private long evaluatedCount = 0;
@@ -42,11 +43,11 @@ public class Solver implements Callable<SolverResult> {
         for (PlacedObject s : taskFixed.shelters) grid.place(s);
 
         PlacedObject bath = taskFixed.bathroom.get();
-        BufferZone bathBuffer = BufferZone.build(bath.solidCells, 3);
+        BufferZone bathBuffer = BufferZone.build(bath.solidCells, 4);
 
         if (taskFixed.kitchen.isPresent()) {
             PlacedObject kit = taskFixed.kitchen.get();
-            BufferZone kitBuffer = BufferZone.build(kit.solidCells, 2);
+            BufferZone kitBuffer = BufferZone.build(kit.solidCells, 3);
             placeShelters(0, kit, bathBuffer, kitBuffer, new PlacedObject[4]);
         } else {
             placeKitchen(bathBuffer);
@@ -66,8 +67,8 @@ public class Solver implements Callable<SolverResult> {
                     if (!ConstraintChecker.checkNoOverlap(grid, orientation, r, c)) continue;
                     var kit = new PlacedObject(com.sheltersim.model.ObjectType.KITCHEN, orientation, r, c);
                     grid.place(kit);
-                    BufferZone kitBuffer = BufferZone.build(kit.solidCells, 2);
-                    placeShelters(0, kit, bathBuffer, kitBuffer, new PlacedObject[4]);
+                    kitBufferReuse.reset(kit.solidCells, 3);
+                    placeShelters(0, kit, bathBuffer, kitBufferReuse, new PlacedObject[4]);
                     grid.remove(kit);
                 }
             }
@@ -80,15 +81,15 @@ public class Solver implements Callable<SolverResult> {
         if (remaining.get() <= 0) return;
         if (idx == 4) {
             evaluatedCount++;
-            int score = computeScore(shelters, taskFixed.bathroom.get(), kit);
-            if (score >= 0) {
+            int[][] dists = computeDistances(shelters, taskFixed.bathroom.get(), kit);
+            if (dists != null) {
                 String key = grid.toFlatString();
                 if (seen.add(key)) {
                     List<com.sheltersim.model.PlacedObject> objs = new ArrayList<>();
                     objs.add(taskFixed.bathroom.get());
                     objs.add(kit);
                     for (PlacedObject s : shelters) objs.add(s);
-                    results.add(new Configuration(objs, score));
+                    results.add(new Configuration(objs, dists[0], dists[1])); // dists[0]=bathDists, dists[1]=kitDists
                     remaining.decrementAndGet();
                 }
             }
@@ -105,15 +106,18 @@ public class Solver implements Callable<SolverResult> {
             return;
         }
 
+        int startR = minKey / Grid.COLS;
+        int startC = minKey % Grid.COLS;
         for (var orientation : cache.getShelterOrientations()) {
             int maxR = Grid.ROWS - orientation.rows;
             int maxC = Grid.COLS - orientation.cols;
-            for (int r = 0; r <= maxR; r++) {
-                for (int c = 0; c <= maxC; c++) {
-                    if (r * Grid.COLS + c < minKey) continue;
+            for (int r = startR; r <= maxR; r++) {
+                for (int c = (r == startR ? startC : 0); c <= maxC; c++) {
                     if (bathBuffer.violates(orientation, r, c)) continue;
                     if (kitBuffer.violates(orientation, r, c)) continue;
+                    if (!ConstraintChecker.checkCourtyardBorder(orientation, r, c)) continue;
                     if (!ConstraintChecker.checkNoOverlap(grid, orientation, r, c)) continue;
+                    if (!ConstraintChecker.checkOpeningNeighbors(grid, orientation, r, c, shelters, idx)) continue;
                     var shelter = new PlacedObject(com.sheltersim.model.ObjectType.SHELTER, orientation, r, c);
                     shelters[idx] = shelter;
                     grid.place(shelter);
@@ -124,15 +128,21 @@ public class Solver implements Callable<SolverResult> {
         }
     }
 
-    private int computeScore(PlacedObject[] shelters, PlacedObject bath, PlacedObject kit) {
-        int total = 0;
-        for (PlacedObject shelter : shelters) {
-            int toBath = bfs.shortestPath(grid, shelter.courtyard, bath.solidCells);
-            if (toBath < 0) return -1;
-            int toKit  = bfs.shortestPath(grid, shelter.courtyard, kit.kitchenRoom);
-            if (toKit  < 0) return -1;
-            total += toBath + toKit;
+    /**
+     * Returns {bathroomDists[4], kitchenDists[4]} — one BFS distance per shelter to each target.
+     * Returns null if any path is unreachable.
+     */
+    private int[][] computeDistances(PlacedObject[] shelters, PlacedObject bath, PlacedObject kit) {
+        int[] bathDists = new int[4];
+        int[] kitDists  = new int[4];
+        for (int i = 0; i < shelters.length; i++) {
+            int toBath = bfs.shortestPath(grid, shelters[i].courtyard, bath.solidCells);
+            if (toBath < 0) return null;
+            int toKit  = bfs.shortestPath(grid, shelters[i].courtyard, kit.kitchenRoom);
+            if (toKit  < 0) return null;
+            bathDists[i] = toBath;
+            kitDists[i]  = toKit;
         }
-        return total;
+        return new int[][]{bathDists, kitDists};
     }
 }

@@ -1,5 +1,10 @@
 visualizer/.venv/
+visualizer/out/
 solver/target/
 *.class
-*.json
 !requirements*.json
+*.png
+*.md
+*.json
+.claude
+_pycache_/

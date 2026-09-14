@@ -65,7 +65,7 @@ public class ParallelSolver {
                     }
             }
         } else if (fixed.kitchen.isEmpty()) {
-            var bathBuffer = BufferZone.build(fixed.bathroom.get().solidCells, 3);
+            var bathBuffer = BufferZone.build(fixed.bathroom.get().solidCells, 4);
             for (var orientation : cache.getKitchenOrientations()) {
                 int maxR = Grid.ROWS - orientation.rows;
                 int maxC = Grid.COLS - orientation.cols;
@@ -77,18 +77,20 @@ public class ParallelSolver {
                     }
             }
         } else if (fixed.shelters.size() < 4) {
-            var bathBuffer = BufferZone.build(fixed.bathroom.get().solidCells, 3);
-            var kitBuffer  = BufferZone.build(fixed.kitchen.get().solidCells, 2);
+            var bathBuffer = BufferZone.build(fixed.bathroom.get().solidCells, 4);
+            var kitBuffer  = BufferZone.build(fixed.kitchen.get().solidCells, 3);
             int minKey = fixed.shelters.isEmpty() ? 0
                     : fixed.shelters.get(fixed.shelters.size() - 1).canonicalKey();
+            int startR = minKey / Grid.COLS;
+            int startC = minKey % Grid.COLS;
             for (var orientation : cache.getShelterOrientations()) {
                 int maxR = Grid.ROWS - orientation.rows;
                 int maxC = Grid.COLS - orientation.cols;
-                for (int r = 0; r <= maxR; r++)
-                    for (int c = 0; c <= maxC; c++) {
-                        if (r * Grid.COLS + c < minKey) continue;
+                for (int r = startR; r <= maxR; r++)
+                    for (int c = (r == startR ? startC : 0); c <= maxC; c++) {
                         if (bathBuffer.violates(orientation, r, c)) continue;
                         if (kitBuffer.violates(orientation, r, c)) continue;
+                        if (!ConstraintChecker.checkCourtyardBorder(orientation, r, c)) continue;
                         var shelter = new PlacedObject(ObjectType.SHELTER, orientation, r, c);
                         tasks.add(new Solver(cache, fixed.withShelter(shelter), remaining));
                     }
@@ -133,7 +135,7 @@ public class ParallelSolver {
     // -------------------------------------------------------------------------
     private void writeWorkingCopy(List<Configuration> configs, String path) {
         try {
-            new com.sheltersim.output.JsonSerializer().writeWorkingCopy(configs, path);
+            new com.sheltersim.output.JsonSerializer().writeWorkingCopy(configs, path, cache);
         } catch (java.io.IOException e) {
             // Best-effort: working copy failure must not abort the search.
             System.err.println("Warning: could not write working copy to " + path + ": " + e.getMessage());

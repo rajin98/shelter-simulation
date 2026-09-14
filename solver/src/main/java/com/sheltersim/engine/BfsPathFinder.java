@@ -1,7 +1,5 @@
 package com.sheltersim.engine;
 
-import java.util.ArrayDeque;
-
 public class BfsPathFinder {
 
     private static final int[] DR = {-1, 1, 0, 0};
@@ -17,7 +15,10 @@ public class BfsPathFinder {
     private final int[] targetAdjSet = new int[Grid.ROWS * Grid.COLS];
     private int targetAdjCount = 0;
 
-    private final ArrayDeque<Integer> queue = new ArrayDeque<>();
+    // Primitive int queue — avoids Integer autoboxing on every enqueue.
+    // Each cell is visited at most once per BFS call, so ROWS*COLS entries suffice.
+    private final int[] queueBuf = new int[Grid.ROWS * Grid.COLS];
+    private int qHead, qTail;
 
     /**
      * Returns the shortest path length (number of empty cells traversed) from
@@ -31,7 +32,7 @@ public class BfsPathFinder {
         currentGen++;
         buildTargetAdjacency(grid, targetSolids);
 
-        queue.clear();
+        qHead = qTail = 0;
 
         // Seed: empty cells orthogonally adjacent to any source solid cell.
         for (int i = 0; i < sourceSolids.length; i += 2) {
@@ -49,12 +50,12 @@ public class BfsPathFinder {
                 }
                 // Encode level 1 in the queue as (idx << 20 | level).
                 // Max idx = 21*27-1 = 566, max level fits in 20 bits easily.
-                queue.add(idx << 20 | 1);
+                queueBuf[qTail++] = idx << 20 | 1;
             }
         }
 
-        while (!queue.isEmpty()) {
-            int entry = queue.poll();
+        while (qHead < qTail) {
+            int entry = queueBuf[qHead++];
             int idx   = entry >>> 20;
             int level = entry & 0xFFFFF;
             int r = idx / Grid.COLS, c = idx % Grid.COLS;
@@ -70,7 +71,7 @@ public class BfsPathFinder {
                 if (!grid.isEmpty(nr, nc)) continue;
                 if (visitedGen[nidx] == currentGen) continue;
                 visitedGen[nidx] = currentGen;
-                queue.add(nidx << 20 | (level + 1));
+                queueBuf[qTail++] = nidx << 20 | (level + 1);
             }
         }
 

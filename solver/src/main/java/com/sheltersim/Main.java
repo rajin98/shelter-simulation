@@ -19,9 +19,11 @@ public class Main {
         // ----------------------------------------------------------------
         // T10.1 — parse CLI arguments
         // ----------------------------------------------------------------
-        String outputPath = "output.json";
-        int threadCount   = Runtime.getRuntime().availableProcessors();
-        long limit        = Long.MAX_VALUE;
+        String outputPath  = "output.json";
+        int    threadCount = Runtime.getRuntime().availableProcessors();
+        long   limit       = Long.MAX_VALUE;
+        String fitnessMode = "mean";   // mean | rms | max | blend
+        float  blendAlpha  = 0.5f;     // weight for mean in blend mode (1-alpha = weight for max)
         FixedPlacements.Builder fixBuilder = null; // initialised after cache is ready
 
         // Collect --fix tokens for deferred parsing (cache needed to look up orientations).
@@ -41,9 +43,21 @@ public class Main {
                     limit = parseLong(args[++i], "--limit");
                     if (limit < 1) die("--limit must be >= 1");
                 }
+                case "--fitness" -> {
+                    if (i + 1 >= args.length) die("--fitness requires a value");
+                    fitnessMode = args[++i].toLowerCase();
+                    if (!fitnessMode.equals("mean") && !fitnessMode.equals("rms")
+                            && !fitnessMode.equals("max") && !fitnessMode.equals("blend"))
+                        die("--fitness must be one of: mean, rms, max, blend");
+                }
+                case "--blend-alpha" -> {
+                    if (i + 1 >= args.length) die("--blend-alpha requires a value");
+                    blendAlpha = parseFloat(args[++i], "--blend-alpha");
+                    if (blendAlpha < 0f || blendAlpha > 1f) die("--blend-alpha must be between 0 and 1");
+                }
                 case "--fix" -> {
                     if (i + 3 >= args.length) die("--fix requires: <kind> <orientId> <row> <col>");
-                    String kind    = args[++i].toLowerCase();
+                    String kind     = args[++i].toLowerCase();
                     String orientId = args[++i];
                     int row = parseInt(args[++i], "--fix row");
                     int col = parseInt(args[++i], "--fix col");
@@ -108,9 +122,33 @@ public class Main {
         }
         long runtimeMs = System.currentTimeMillis() - startMs;
 
-        // 4. Sort ascending by score; assign ranks (ties share rank).
+        // 4. Normalize distances, compute weighted score, sort ascending, assign ranks.
+        final float BATHROOM_WEIGHT = 1.0f;
+        final float KITCHEN_WEIGHT  = 0.5f;
+
         List<Configuration> configs = new ArrayList<>(result.configs());
-        configs.sort(Comparator.comparingInt(c -> c.score));
+        if (!configs.isEmpty()) {
+            // Global min/max over every individual per-shelter distance (not aggregate sums)
+            // so a single outlying shelter is penalized on its own scale.
+            int minBath = Integer.MAX_VALUE, maxBathDist = Integer.MIN_VALUE;
+            int minKit  = Integer.MAX_VALUE, maxKitDist  = Integer.MIN_VALUE;
+            for (Configuration cfg : configs) {
+                for (int d : cfg.bathroomDists) { minBath = Math.min(minBath, d); maxBathDist = Math.max(maxBathDist, d); }
+                for (int d : cfg.kitchenDists)  { minKit  = Math.min(minKit,  d); maxKitDist  = Math.max(maxKitDist,  d); }
+            }
+            float bathRange = maxBathDist - minBath;
+            float kitRange  = maxKitDist  - minKit;
+
+            final float alpha = blendAlpha; // capture for lambda / readability
+            for (Configuration cfg : configs) {
+                cfg.bathroomDistanceNormalized = aggregate(cfg.bathroomDists, minBath, bathRange, fitnessMode, alpha);
+                cfg.kitchenDistanceNormalized  = aggregate(cfg.kitchenDists,  minKit,  kitRange,  fitnessMode, alpha);
+                cfg.score = BATHROOM_WEIGHT * cfg.bathroomDistanceNormalized
+                          + KITCHEN_WEIGHT  * cfg.kitchenDistanceNormalized;
+            }
+        }
+
+        configs.sort(Comparator.comparingDouble((Configuration c) -> c.score));
         int rank = 1;
         for (int j = 0; j < configs.size(); j++) {
             if (j > 0 && configs.get(j).score != configs.get(j - 1).score) rank = j + 1;
@@ -119,7 +157,7 @@ public class Main {
 
         // 5. Serialize.
         try {
-            new JsonSerializer().write(configs, result.evaluated(), result.valid(), runtimeMs, outputPath);
+            new JsonSerializer().write(configs, result.evaluated(), result.valid(), runtimeMs, outputPath, cache);
         } catch (Exception e) {
             System.err.println("Failed to write output: " + e.getMessage());
             System.exit(1);
@@ -132,7 +170,11 @@ public class Main {
         int fixedCount = (fixed.bathroom.isPresent() ? 1 : 0)
                 + (fixed.kitchen.isPresent() ? 1 : 0)
                 + fixed.shelters.size();
+        String fitnessSummary = fitnessMode.equals("blend")
+                ? String.format("blend (alpha=%.2f)", blendAlpha)
+                : fitnessMode;
         System.out.printf("Threads:   %d%n", threadCount);
+        System.out.printf("Fitness:   %s%n", fitnessSummary);
         System.out.printf("Fixed:     %d object(s)%n", fixedCount);
         System.out.printf("Evaluated: %,d%n", result.evaluated());
         System.out.printf("Valid:     %,d%n", result.valid());
@@ -144,6 +186,32 @@ public class Main {
     // Helpers
     // ----------------------------------------------------------------
 
+    /**
+     * Aggregates per-shelter normalized distances into a single [0,1] score component.
+     *
+     * mean  — arithmetic mean of normalized distances (baseline, equity-blind)
+     * rms   — root mean square; penalises variance, outlier shelters score worse
+     * max   — worst-served shelter only; pure minimax / equity-first
+     * blend — alpha * mean + (1-alpha) * max; tunable balance between average and worst-case
+     */
+    private static float aggregate(int[] dists, int globalMin, float range,
+                                   String mode, float alpha) {
+        float sum = 0f, sumSq = 0f, max = 0f;
+        for (int d : dists) {
+            float n = range > 0 ? (d - globalMin) / range : 0f;
+            sum   += n;
+            sumSq += n * n;
+            if (n > max) max = n;
+        }
+        float mean = sum / dists.length;
+        return switch (mode) {
+            case "rms"   -> (float) Math.sqrt(sumSq / dists.length);
+            case "max"   -> max;
+            case "blend" -> alpha * mean + (1f - alpha) * max;
+            default      -> mean; // "mean"
+        };
+    }
+
     private static int parseInt(String s, String context) {
         try { return Integer.parseInt(s); }
         catch (NumberFormatException e) { die(context + " must be an integer, got: " + s); return 0; }
@@ -154,10 +222,16 @@ public class Main {
         catch (NumberFormatException e) { die(context + " must be an integer, got: " + s); return 0; }
     }
 
+    private static float parseFloat(String s, String context) {
+        try { return Float.parseFloat(s); }
+        catch (NumberFormatException e) { die(context + " must be a number, got: " + s); return 0f; }
+    }
+
     private static void die(String msg) {
         System.err.println("Error: " + msg);
         System.err.println();
         System.err.println("Usage: solver.jar [output.json] [--threads N] [--limit N]");
+        System.err.println("         [--fitness mean|rms|max|blend] [--blend-alpha 0.0-1.0]");
         System.err.println("         [--fix bathroom <orientId> <row> <col>]");
         System.err.println("         [--fix kitchen  <orientId> <row> <col>]");
         System.err.println("         [--fix shelter  <orientId> <row> <col>] ...");

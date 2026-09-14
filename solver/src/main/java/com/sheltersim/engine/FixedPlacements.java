@@ -113,7 +113,7 @@ public final class FixedPlacements {
                 if (kitchen != null) others.add(kitchen);
                 others.addAll(shelters);
                 for (PlacedObject other : others) {
-                    if (!ConstraintChecker.checkBuffer(other.solidCells, bathroom.solidCells, 3))
+                    if (!ConstraintChecker.checkBuffer(other.solidCells, bathroom.solidCells, 4))
                         throw new InvalidPlacementException(
                                 other.type + " at (" + other.topLeftRow + "," + other.topLeftCol +
                                 ") violates R1: too close to bathroom (buffer dist=3)");
@@ -126,7 +126,7 @@ public final class FixedPlacements {
                 if (bathroom != null) others.add(bathroom);
                 others.addAll(shelters);
                 for (PlacedObject other : others) {
-                    if (!ConstraintChecker.checkBuffer(other.solidCells, kitchen.solidCells, 2))
+                    if (!ConstraintChecker.checkBuffer(other.solidCells, kitchen.solidCells, 3))
                         throw new InvalidPlacementException(
                                 other.type + " at (" + other.topLeftRow + "," + other.topLeftCol +
                                 ") violates R2: too close to kitchen (buffer dist=2)");

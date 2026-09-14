@@ -1,0 +1,8279 @@
+{
+  "params": {
+    "eps_cat": 3.0,
+    "eps_sub": 3.0,
+    "min_samples": 2,
+    "metric": "chebyshev"
+  },
+  "stats": {
+    "n_configs": 1377,
+    "n_categories": 3,
+    "n_cat_noise": 0,
+    "n_subcategories": 84,
+    "n_sub_noise": 0
+  },
+  "assignments": [
+    {
+      "rank": 1,
+      "score": 0.38159722,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 2,
+      "score": 0.38263887,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 3,
+      "score": 0.3871528,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 4,
+      "score": 0.39270833,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 5,
+      "score": 0.39374998,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 6,
+      "score": 0.39826387,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 7,
+      "score": 0.40416667,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 7,
+      "score": 0.40416667,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 7,
+      "score": 0.40416667,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 10,
+      "score": 0.40520835,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 10,
+      "score": 0.40520835,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 12,
+      "score": 0.4059028,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 13,
+      "score": 0.4076389,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 14,
+      "score": 0.4097222,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 14,
+      "score": 0.4097222,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 14,
+      "score": 0.4097222,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 17,
+      "score": 0.41284722,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 18,
+      "score": 0.41527778,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 18,
+      "score": 0.41527778,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 18,
+      "score": 0.41527778,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 21,
+      "score": 0.41597223,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 22,
+      "score": 0.41631946,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 22,
+      "score": 0.41631946,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 24,
+      "score": 0.41701388,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 25,
+      "score": 0.41875002,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 26,
+      "score": 0.42083335,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 26,
+      "score": 0.42083335,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 26,
+      "score": 0.42083335,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 29,
+      "score": 0.42395836,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 30,
+      "score": 0.42673612,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 30,
+      "score": 0.42673612,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 32,
+      "score": 0.42708337,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 33,
+      "score": 0.42777777,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 33,
+      "score": 0.42777777,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 35,
+      "score": 0.42847222,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 35,
+      "score": 0.42847222,
+      "category": 1,
+      "subcategory": 0
+    },
+    {
+      "rank": 35,
+      "score": 0.42847222,
+      "category": 1,
+      "subcategory": 1
+    },
+    {
+      "rank": 38,
+      "score": 0.42881942,
+      "category": 1,
+      "subcategory": 2
+    },
+    {
+      "rank": 38,
+      "score": 0.42881942,
+      "category": 1,
+      "subcategory": 3
+    },
+    {
+      "rank": 40,
+      "score": 0.42881945,
+      "category": 0,
+      "subcategory": 2
+    },
+    {
+      "rank": 41,
+      "score": 0.43020833,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 42,
+      "score": 0.43125,
+      "category": 0,
+      "subcategory": 2
+    },
+    {
+      "rank": 43,
+      "score": 0.4322917,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 43,
+      "score": 0.4322917,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 45,
+      "score": 0.4340278,
+      "category": 1,
+      "subcategory": 4
+    },
+    {
+      "rank": 46,
+      "score": 0.434375,
+      "category": 1,
+      "subcategory": 5
+    },
+    {
+      "rank": 47,
+      "score": 0.43472221,
+      "category": 1,
+      "subcategory": 6
+    },
+    {
+      "rank": 47,
+      "score": 0.43472221,
+      "category": 1,
+      "subcategory": 7
+    },
+    {
+      "rank": 49,
+      "score": 0.4354167,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 50,
+      "score": 0.4357639,
+      "category": 0,
+      "subcategory": 2
+    },
+    {
+      "rank": 51,
+      "score": 0.43784723,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 51,
+      "score": 0.43784723,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 53,
+      "score": 0.43819445,
+      "category": 0,
+      "subcategory": 2
+    },
+    {
+      "rank": 54,
+      "score": 0.43854165,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 55,
+      "score": 0.43888888,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 55,
+      "score": 0.43888888,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 57,
+      "score": 0.43958333,
+      "category": 1,
+      "subcategory": 0
+    },
+    {
+      "rank": 57,
+      "score": 0.43958333,
+      "category": 1,
+      "subcategory": 1
+    },
+    {
+      "rank": 57,
+      "score": 0.43958333,
+      "category": 1,
+      "subcategory": 0
+    },
+    {
+      "rank": 57,
+      "score": 0.43958333,
+      "category": 1,
+      "subcategory": 1
+    },
+    {
+      "rank": 61,
+      "score": 0.43958336,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 62,
+      "score": 0.43993056,
+      "category": 1,
+      "subcategory": 2
+    },
+    {
+      "rank": 62,
+      "score": 0.43993056,
+      "category": 1,
+      "subcategory": 3
+    },
+    {
+      "rank": 62,
+      "score": 0.43993056,
+      "category": 1,
+      "subcategory": 2
+    },
+    {
+      "rank": 62,
+      "score": 0.43993056,
+      "category": 1,
+      "subcategory": 3
+    },
+    {
+      "rank": 66,
+      "score": 0.44027776,
+      "category": 1,
+      "subcategory": 8
+    },
+    {
+      "rank": 66,
+      "score": 0.44027776,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 68,
+      "score": 0.44131944,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 69,
+      "score": 0.44270834,
+      "category": 0,
+      "subcategory": 2
+    },
+    {
+      "rank": 70,
+      "score": 0.44340277,
+      "category": 0,
+      "subcategory": 1
+    },
+    {
+      "rank": 70,
+      "score": 0.44340277,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 72,
+      "score": 0.44513887,
+      "category": 1,
+      "subcategory": 4
+    },
+    {
+      "rank": 72,
+      "score": 0.44513887,
+      "category": 1,
+      "subcategory": 4
+    },
+    {
+      "rank": 74,
+      "score": 0.4451389,
+      "category": 0,
+      "subcategory": 2
+    },
+    {
+      "rank": 75,
+      "score": 0.4454861,
+      "category": 1,
+      "subcategory": 5
+    },
+    {
+      "rank": 75,
+      "score": 0.4454861,
+      "category": 1,
+      "subcategory": 5
+    },
+    {
+      "rank": 77,
+      "score": 0.44583333,
+      "category": 1,
+      "subcategory": 6
+    },
+    {
+      "rank": 77,
+      "score": 0.44583333,
+      "category": 1,
+      "subcategory": 7
+    },
+    {
+      "rank": 77,
+      "score": 0.44583333,
+      "category": 1,
+      "subcategory": 6
+    },
+    {
+      "rank": 77,
+      "score": 0.44583333,
+      "category": 1,
+      "subcategory": 7
+    },
+    {
+      "rank": 81,
+      "score": 0.44652778,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 81,
+      "score": 0.44652778,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 83,
+      "score": 0.4496528,
+      "category": 0,
+      "subcategory": 2
+    },
+    {
+      "rank": 83,
+      "score": 0.4496528,
+      "category": 0,
+      "subcategory": 0
+    },
+    {
+      "rank": 85,
+      "score": 0.45,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 86,
+      "score": 0.45069444,
+      "category": 1,
+      "subcategory": 0
+    },
+    {
+      "rank": 86,
+      "score": 0.45069444,
+      "category": 1,
+      "subcategory": 1
+    },
+    {
+      "rank": 86,
+      "score": 0.45069444,
+      "category": 1,
+      "subcategory": 0
+    },
+    {
+      "rank": 86,
+      "score": 0.45069444,
+      "category": 1,
+      "subcategory": 1
+    },
+    {
+      "rank": 90,
+      "score": 0.45104164,
+      "category": 1,
+      "subcategory": 2
+    },
+    {
+      "rank": 90,
+      "score": 0.45104164,
+      "category": 1,
+      "subcategory": 3
+    },
+    {
+      "rank": 92,
+      "score": 0.4513889,
+      "category": 1,
+      "subcategory": 8
+    },
+    {
+      "rank": 92,
+      "score": 0.4513889,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 92,
+      "score": 0.4513889,
+      "category": 1,
+      "subcategory": 8
+    },
+    {
+      "rank": 95,
+      "score": 0.45173612,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 96,
+      "score": 0.45208332,
+      "category": 1,
+      "subcategory": 12
+    },
+    {
+      "rank": 97,
+      "score": 0.45624998,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 98,
+      "score": 0.45625,
+      "category": 1,
+      "subcategory": 4
+    },
+    {
+      "rank": 98,
+      "score": 0.45625,
+      "category": 1,
+      "subcategory": 4
+    },
+    {
+      "rank": 100,
+      "score": 0.4565972,
+      "category": 1,
+      "subcategory": 5
+    },
+    {
+      "rank": 101,
+      "score": 0.45694444,
+      "category": 1,
+      "subcategory": 6
+    },
+    {
+      "rank": 101,
+      "score": 0.45694444,
+      "category": 1,
+      "subcategory": 7
+    },
+    {
+      "rank": 101,
+      "score": 0.45694444,
+      "category": 1,
+      "subcategory": 6
+    },
+    {
+      "rank": 101,
+      "score": 0.45694444,
+      "category": 1,
+      "subcategory": 7
+    },
+    {
+      "rank": 101,
+      "score": 0.45694444,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 106,
+      "score": 0.45729166,
+      "category": 1,
+      "subcategory": 13
+    },
+    {
+      "rank": 107,
+      "score": 0.45763886,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 108,
+      "score": 0.45972222,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 108,
+      "score": 0.45972222,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 108,
+      "score": 0.45972222,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 108,
+      "score": 0.45972222,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 112,
+      "score": 0.4611111,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 113,
+      "score": 0.46145833,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 113,
+      "score": 0.46145833,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 115,
+      "score": 0.46180555,
+      "category": 1,
+      "subcategory": 12
+    },
+    {
+      "rank": 115,
+      "score": 0.46180555,
+      "category": 1,
+      "subcategory": 0
+    },
+    {
+      "rank": 115,
+      "score": 0.46180555,
+      "category": 1,
+      "subcategory": 1
+    },
+    {
+      "rank": 118,
+      "score": 0.46180558,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 119,
+      "score": 0.46249998,
+      "category": 1,
+      "subcategory": 8
+    },
+    {
+      "rank": 119,
+      "score": 0.46249998,
+      "category": 1,
+      "subcategory": 8
+    },
+    {
+      "rank": 121,
+      "score": 0.46284723,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 122,
+      "score": 0.46319443,
+      "category": 1,
+      "subcategory": 12
+    },
+    {
+      "rank": 123,
+      "score": 0.46562502,
+      "category": 1,
+      "subcategory": 14
+    },
+    {
+      "rank": 123,
+      "score": 0.46562502,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 125,
+      "score": 0.46597221,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 126,
+      "score": 0.46597224,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 126,
+      "score": 0.46597224,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 126,
+      "score": 0.46597224,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 126,
+      "score": 0.46597224,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 126,
+      "score": 0.46597224,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 131,
+      "score": 0.4670139,
+      "category": 1,
+      "subcategory": 13
+    },
+    {
+      "rank": 132,
+      "score": 0.4673611,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 132,
+      "score": 0.4673611,
+      "category": 1,
+      "subcategory": 4
+    },
+    {
+      "rank": 134,
+      "score": 0.46805555,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 134,
+      "score": 0.46805555,
+      "category": 1,
+      "subcategory": 6
+    },
+    {
+      "rank": 134,
+      "score": 0.46805555,
+      "category": 1,
+      "subcategory": 7
+    },
+    {
+      "rank": 134,
+      "score": 0.46805555,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 138,
+      "score": 0.4684028,
+      "category": 1,
+      "subcategory": 13
+    },
+    {
+      "rank": 139,
+      "score": 0.46944445,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 139,
+      "score": 0.46944445,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 139,
+      "score": 0.46944445,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 142,
+      "score": 0.47083333,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 143,
+      "score": 0.47118056,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 144,
+      "score": 0.47152776,
+      "category": 1,
+      "subcategory": 12
+    },
+    {
+      "rank": 145,
+      "score": 0.47152779,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 146,
+      "score": 0.47187498,
+      "category": 1,
+      "subcategory": 15
+    },
+    {
+      "rank": 146,
+      "score": 0.47187498,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 148,
+      "score": 0.47256947,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 149,
+      "score": 0.47291666,
+      "category": 1,
+      "subcategory": 12
+    },
+    {
+      "rank": 150,
+      "score": 0.4732639,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 151,
+      "score": 0.47361112,
+      "category": 1,
+      "subcategory": 8
+    },
+    {
+      "rank": 152,
+      "score": 0.47534725,
+      "category": 1,
+      "subcategory": 14
+    },
+    {
+      "rank": 152,
+      "score": 0.47534725,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 154,
+      "score": 0.47569445,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 154,
+      "score": 0.47569445,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 154,
+      "score": 0.47569445,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 154,
+      "score": 0.47569445,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 154,
+      "score": 0.47569445,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 159,
+      "score": 0.47569448,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 159,
+      "score": 0.47569448,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 161,
+      "score": 0.47708333,
+      "category": 1,
+      "subcategory": 16
+    },
+    {
+      "rank": 161,
+      "score": 0.47708333,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 161,
+      "score": 0.47708333,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 164,
+      "score": 0.47743058,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 164,
+      "score": 0.47743058,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 164,
+      "score": 0.47743058,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 167,
+      "score": 0.47777778,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 168,
+      "score": 0.478125,
+      "category": 1,
+      "subcategory": 13
+    },
+    {
+      "rank": 169,
+      "score": 0.4791667,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 169,
+      "score": 0.4791667,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 169,
+      "score": 0.4791667,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 172,
+      "score": 0.4809028,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 173,
+      "score": 0.48125002,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 174,
+      "score": 0.48159721,
+      "category": 1,
+      "subcategory": 15
+    },
+    {
+      "rank": 174,
+      "score": 0.48159721,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 176,
+      "score": 0.48194444,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 176,
+      "score": 0.48194444,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 176,
+      "score": 0.48194444,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 176,
+      "score": 0.48194444,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 180,
+      "score": 0.4822917,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 180,
+      "score": 0.4822917,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 182,
+      "score": 0.4826389,
+      "category": 1,
+      "subcategory": 12
+    },
+    {
+      "rank": 183,
+      "score": 0.4829861,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 184,
+      "score": 0.4840278,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 184,
+      "score": 0.4840278,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 184,
+      "score": 0.4840278,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 187,
+      "score": 0.48506945,
+      "category": 1,
+      "subcategory": 14
+    },
+    {
+      "rank": 187,
+      "score": 0.48506945,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 189,
+      "score": 0.48541668,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 189,
+      "score": 0.48541668,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 189,
+      "score": 0.48541668,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 189,
+      "score": 0.48541668,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 189,
+      "score": 0.48541668,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 194,
+      "score": 0.4854167,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 194,
+      "score": 0.4854167,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 196,
+      "score": 0.48680556,
+      "category": 1,
+      "subcategory": 16
+    },
+    {
+      "rank": 196,
+      "score": 0.48680556,
+      "category": 1,
+      "subcategory": 11
+    },
+    {
+      "rank": 198,
+      "score": 0.4868056,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 198,
+      "score": 0.4868056,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 200,
+      "score": 0.48715279,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 200,
+      "score": 0.48715279,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 200,
+      "score": 0.48715279,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 203,
+      "score": 0.4875,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 204,
+      "score": 0.48854166,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 204,
+      "score": 0.48854166,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 204,
+      "score": 0.48854166,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 204,
+      "score": 0.48854166,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 204,
+      "score": 0.48854166,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 204,
+      "score": 0.48854166,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 204,
+      "score": 0.48854166,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 211,
+      "score": 0.48888892,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 211,
+      "score": 0.48888892,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 211,
+      "score": 0.48888892,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 214,
+      "score": 0.48993057,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 214,
+      "score": 0.48993057,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 216,
+      "score": 0.49027777,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 217,
+      "score": 0.490625,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 218,
+      "score": 0.49131942,
+      "category": 1,
+      "subcategory": 15
+    },
+    {
+      "rank": 218,
+      "score": 0.49131942,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 220,
+      "score": 0.49166667,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 220,
+      "score": 0.49166667,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 220,
+      "score": 0.49166667,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 220,
+      "score": 0.49166667,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 224,
+      "score": 0.4920139,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 224,
+      "score": 0.4920139,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 226,
+      "score": 0.49236113,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 227,
+      "score": 0.49305555,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 227,
+      "score": 0.49305555,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 227,
+      "score": 0.49305555,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 227,
+      "score": 0.49305555,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 227,
+      "score": 0.49305555,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 227,
+      "score": 0.49305555,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 233,
+      "score": 0.49375004,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 233,
+      "score": 0.49375004,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 233,
+      "score": 0.49375004,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 236,
+      "score": 0.49479163,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 237,
+      "score": 0.49513888,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 237,
+      "score": 0.49513888,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 237,
+      "score": 0.49513888,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 237,
+      "score": 0.49513888,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 237,
+      "score": 0.49513888,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 237,
+      "score": 0.49513888,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 237,
+      "score": 0.49513888,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 244,
+      "score": 0.4951389,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 244,
+      "score": 0.4951389,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 246,
+      "score": 0.49583334,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 246,
+      "score": 0.49583334,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 246,
+      "score": 0.49583334,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 246,
+      "score": 0.49583334,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 250,
+      "score": 0.49618056,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 250,
+      "score": 0.49618056,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 250,
+      "score": 0.49618056,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 253,
+      "score": 0.4965278,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 253,
+      "score": 0.4965278,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 255,
+      "score": 0.49687502,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 255,
+      "score": 0.49687502,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 255,
+      "score": 0.49687502,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 255,
+      "score": 0.49687502,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 255,
+      "score": 0.49687502,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 255,
+      "score": 0.49687502,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 261,
+      "score": 0.49756944,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 261,
+      "score": 0.49756944,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 263,
+      "score": 0.4982639,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 263,
+      "score": 0.4982639,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 263,
+      "score": 0.4982639,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 263,
+      "score": 0.4982639,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 263,
+      "score": 0.4982639,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 263,
+      "score": 0.4982639,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 263,
+      "score": 0.4982639,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 270,
+      "score": 0.4996528,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 270,
+      "score": 0.4996528,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 270,
+      "score": 0.4996528,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 270,
+      "score": 0.4996528,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 274,
+      "score": 0.5,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 275,
+      "score": 0.50104165,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 275,
+      "score": 0.50104165,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 275,
+      "score": 0.50104165,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 275,
+      "score": 0.50104165,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 279,
+      "score": 0.5013889,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 279,
+      "score": 0.5013889,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 279,
+      "score": 0.5013889,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 279,
+      "score": 0.5013889,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 279,
+      "score": 0.5013889,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 279,
+      "score": 0.5013889,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 279,
+      "score": 0.5013889,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 286,
+      "score": 0.50173616,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 286,
+      "score": 0.50173616,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 288,
+      "score": 0.5020833,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 289,
+      "score": 0.50277776,
+      "category": 1,
+      "subcategory": 21
+    },
+    {
+      "rank": 289,
+      "score": 0.50277776,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 289,
+      "score": 0.50277776,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 289,
+      "score": 0.50277776,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 289,
+      "score": 0.50277776,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 294,
+      "score": 0.5034722,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 294,
+      "score": 0.5034722,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 294,
+      "score": 0.5034722,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 294,
+      "score": 0.5034722,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 294,
+      "score": 0.5034722,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 294,
+      "score": 0.5034722,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 294,
+      "score": 0.5034722,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 301,
+      "score": 0.50416666,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 301,
+      "score": 0.50416666,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 301,
+      "score": 0.50416666,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 301,
+      "score": 0.50416666,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 301,
+      "score": 0.50416666,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 301,
+      "score": 0.50416666,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 307,
+      "score": 0.50451386,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 308,
+      "score": 0.5048611,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 308,
+      "score": 0.5048611,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 310,
+      "score": 0.50555557,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 310,
+      "score": 0.50555557,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 310,
+      "score": 0.50555557,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 310,
+      "score": 0.50555557,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 314,
+      "score": 0.50590277,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 315,
+      "score": 0.50625,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 315,
+      "score": 0.50625,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 315,
+      "score": 0.50625,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 315,
+      "score": 0.50625,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 319,
+      "score": 0.5065972,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 319,
+      "score": 0.5065972,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 319,
+      "score": 0.5065972,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 319,
+      "score": 0.5065972,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 319,
+      "score": 0.5065972,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 319,
+      "score": 0.5065972,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 325,
+      "score": 0.5069444,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 325,
+      "score": 0.5069444,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 325,
+      "score": 0.5069444,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 325,
+      "score": 0.5069444,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 329,
+      "score": 0.5072917,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 339,
+      "score": 0.5079861,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 347,
+      "score": 0.5086805,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 347,
+      "score": 0.5086805,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 347,
+      "score": 0.5086805,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 347,
+      "score": 0.5086805,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 351,
+      "score": 0.5090278,
+      "category": 1,
+      "subcategory": 22
+    },
+    {
+      "rank": 352,
+      "score": 0.50972223,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 353,
+      "score": 0.5107639,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 353,
+      "score": 0.5107639,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 353,
+      "score": 0.5107639,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 353,
+      "score": 0.5107639,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 357,
+      "score": 0.51111114,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 357,
+      "score": 0.51111114,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 357,
+      "score": 0.51111114,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 357,
+      "score": 0.51111114,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 357,
+      "score": 0.51111114,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 357,
+      "score": 0.51111114,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 357,
+      "score": 0.51111114,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 364,
+      "score": 0.51145834,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 364,
+      "score": 0.51145834,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 366,
+      "score": 0.51180553,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 367,
+      "score": 0.5121528,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 367,
+      "score": 0.5121528,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 367,
+      "score": 0.5121528,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 367,
+      "score": 0.5121528,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 371,
+      "score": 0.5125,
+      "category": 1,
+      "subcategory": 21
+    },
+    {
+      "rank": 371,
+      "score": 0.5125,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 371,
+      "score": 0.5125,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 371,
+      "score": 0.5125,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 371,
+      "score": 0.5125,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 376,
+      "score": 0.51250005,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 376,
+      "score": 0.51250005,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 378,
+      "score": 0.51319444,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 378,
+      "score": 0.51319444,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 378,
+      "score": 0.51319444,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 381,
+      "score": 0.5138889,
+      "category": 1,
+      "subcategory": 21
+    },
+    {
+      "rank": 382,
+      "score": 0.5142361,
+      "category": 1,
+      "subcategory": 23
+    },
+    {
+      "rank": 382,
+      "score": 0.5142361,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 382,
+      "score": 0.5142361,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 382,
+      "score": 0.5142361,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 382,
+      "score": 0.5142361,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 382,
+      "score": 0.5142361,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 382,
+      "score": 0.5142361,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 389,
+      "score": 0.51458335,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 389,
+      "score": 0.51458335,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 389,
+      "score": 0.51458335,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 389,
+      "score": 0.51458335,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 393,
+      "score": 0.51527774,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 393,
+      "score": 0.51527774,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 393,
+      "score": 0.51527774,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 393,
+      "score": 0.51527774,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 393,
+      "score": 0.51527774,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 393,
+      "score": 0.51527774,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 399,
+      "score": 0.515625,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 400,
+      "score": 0.51597226,
+      "category": 2,
+      "subcategory": 6
+    },
+    {
+      "rank": 400,
+      "score": 0.51597226,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 402,
+      "score": 0.51631945,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 402,
+      "score": 0.51631945,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 402,
+      "score": 0.51631945,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 402,
+      "score": 0.51631945,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 402,
+      "score": 0.51631945,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 407,
+      "score": 0.51666665,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 407,
+      "score": 0.51666665,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 407,
+      "score": 0.51666665,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 407,
+      "score": 0.51666665,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 411,
+      "score": 0.5173611,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 411,
+      "score": 0.5173611,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 413,
+      "score": 0.5177083,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 413,
+      "score": 0.5177083,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 413,
+      "score": 0.5177083,
+      "category": 2,
+      "subcategory": 7
+    },
+    {
+      "rank": 413,
+      "score": 0.5177083,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 413,
+      "score": 0.5177083,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 413,
+      "score": 0.5177083,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 413,
+      "score": 0.5177083,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 420,
+      "score": 0.51805556,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 420,
+      "score": 0.51805556,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 420,
+      "score": 0.51805556,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 420,
+      "score": 0.51805556,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 424,
+      "score": 0.51840276,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 424,
+      "score": 0.51840276,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 424,
+      "score": 0.51840276,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 424,
+      "score": 0.51840276,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 428,
+      "score": 0.5184028,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 428,
+      "score": 0.5184028,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 428,
+      "score": 0.5184028,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 428,
+      "score": 0.5184028,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 428,
+      "score": 0.5184028,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 428,
+      "score": 0.5184028,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 434,
+      "score": 0.51874995,
+      "category": 1,
+      "subcategory": 22
+    },
+    {
+      "rank": 435,
+      "score": 0.51875,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 435,
+      "score": 0.51875,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 435,
+      "score": 0.51875,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 435,
+      "score": 0.51875,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 439,
+      "score": 0.5190972,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 439,
+      "score": 0.5190972,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 441,
+      "score": 0.51979166,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 441,
+      "score": 0.51979166,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 441,
+      "score": 0.51979166,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 441,
+      "score": 0.51979166,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 445,
+      "score": 0.52013886,
+      "category": 1,
+      "subcategory": 22
+    },
+    {
+      "rank": 446,
+      "score": 0.5208333,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 446,
+      "score": 0.5208333,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 448,
+      "score": 0.5208334,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 448,
+      "score": 0.5208334,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 450,
+      "score": 0.52118057,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 450,
+      "score": 0.52118057,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 452,
+      "score": 0.521875,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 452,
+      "score": 0.521875,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 452,
+      "score": 0.521875,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 452,
+      "score": 0.521875,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 456,
+      "score": 0.5222222,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 456,
+      "score": 0.5222222,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 456,
+      "score": 0.5222222,
+      "category": 1,
+      "subcategory": 21
+    },
+    {
+      "rank": 456,
+      "score": 0.5222222,
+      "category": 2,
+      "subcategory": 9
+    },
+    {
+      "rank": 456,
+      "score": 0.5222222,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 456,
+      "score": 0.5222222,
+      "category": 2,
+      "subcategory": 10
+    },
+    {
+      "rank": 456,
+      "score": 0.5222222,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 463,
+      "score": 0.5229167,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 464,
+      "score": 0.5232639,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 464,
+      "score": 0.5232639,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 466,
+      "score": 0.52326393,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 466,
+      "score": 0.52326393,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 466,
+      "score": 0.52326393,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 466,
+      "score": 0.52326393,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 470,
+      "score": 0.52361107,
+      "category": 1,
+      "subcategory": 21
+    },
+    {
+      "rank": 471,
+      "score": 0.5236111,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 471,
+      "score": 0.5236111,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 471,
+      "score": 0.5236111,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 471,
+      "score": 0.5236111,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 475,
+      "score": 0.5239583,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 475,
+      "score": 0.5239583,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 475,
+      "score": 0.5239583,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 475,
+      "score": 0.5239583,
+      "category": 1,
+      "subcategory": 23
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 1,
+      "subcategory": 23
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 479,
+      "score": 0.52534723,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 492,
+      "score": 0.52569443,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 492,
+      "score": 0.52569443,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 492,
+      "score": 0.52569443,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 492,
+      "score": 0.52569443,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 496,
+      "score": 0.5260416,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 496,
+      "score": 0.5260416,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 496,
+      "score": 0.5260416,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 499,
+      "score": 0.5263889,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 499,
+      "score": 0.5263889,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 499,
+      "score": 0.5263889,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 499,
+      "score": 0.5263889,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 499,
+      "score": 0.5263889,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 499,
+      "score": 0.5263889,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 505,
+      "score": 0.52743053,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 505,
+      "score": 0.52743053,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 505,
+      "score": 0.52743053,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 508,
+      "score": 0.5274306,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 508,
+      "score": 0.5274306,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 508,
+      "score": 0.5274306,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 508,
+      "score": 0.5274306,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 512,
+      "score": 0.5277778,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 512,
+      "score": 0.5277778,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 512,
+      "score": 0.5277778,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 512,
+      "score": 0.5277778,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 512,
+      "score": 0.5277778,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 512,
+      "score": 0.5277778,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 512,
+      "score": 0.5277778,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 519,
+      "score": 0.5284722,
+      "category": 1,
+      "subcategory": 22
+    },
+    {
+      "rank": 519,
+      "score": 0.5284722,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 519,
+      "score": 0.5284722,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 522,
+      "score": 0.5291667,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 522,
+      "score": 0.5291667,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 522,
+      "score": 0.5291667,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 522,
+      "score": 0.5291667,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 526,
+      "score": 0.52951384,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 526,
+      "score": 0.52951384,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 526,
+      "score": 0.52951384,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 526,
+      "score": 0.52951384,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 530,
+      "score": 0.5295139,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 530,
+      "score": 0.5295139,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 530,
+      "score": 0.5295139,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 530,
+      "score": 0.5295139,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 530,
+      "score": 0.5295139,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 530,
+      "score": 0.5295139,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 1,
+      "subcategory": 22
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 536,
+      "score": 0.5298611,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 545,
+      "score": 0.53020835,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 545,
+      "score": 0.53020835,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 547,
+      "score": 0.53055555,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 547,
+      "score": 0.53055555,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 547,
+      "score": 0.53055555,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 550,
+      "score": 0.5305556,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 551,
+      "score": 0.53090274,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 551,
+      "score": 0.53090274,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 551,
+      "score": 0.53090274,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 551,
+      "score": 0.53090274,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 555,
+      "score": 0.5309028,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 555,
+      "score": 0.5309028,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 557,
+      "score": 0.53194445,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 557,
+      "score": 0.53194445,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 557,
+      "score": 0.53194445,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 560,
+      "score": 0.53229165,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 560,
+      "score": 0.53229165,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 560,
+      "score": 0.53229165,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 560,
+      "score": 0.53229165,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 564,
+      "score": 0.5329861,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 564,
+      "score": 0.5329861,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 566,
+      "score": 0.53298616,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 566,
+      "score": 0.53298616,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 566,
+      "score": 0.53298616,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 566,
+      "score": 0.53298616,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 570,
+      "score": 0.5333333,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 570,
+      "score": 0.5333333,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 570,
+      "score": 0.5333333,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 570,
+      "score": 0.5333333,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 570,
+      "score": 0.5333333,
+      "category": 1,
+      "subcategory": 21
+    },
+    {
+      "rank": 575,
+      "score": 0.53437495,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 575,
+      "score": 0.53437495,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 577,
+      "score": 0.534375,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 577,
+      "score": 0.534375,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 579,
+      "score": 0.5347222,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 579,
+      "score": 0.5347222,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 579,
+      "score": 0.5347222,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 579,
+      "score": 0.5347222,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 583,
+      "score": 0.5350694,
+      "category": 1,
+      "subcategory": 23
+    },
+    {
+      "rank": 584,
+      "score": 0.53506947,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 584,
+      "score": 0.53506947,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 584,
+      "score": 0.53506947,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 584,
+      "score": 0.53506947,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 584,
+      "score": 0.53506947,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 584,
+      "score": 0.53506947,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 590,
+      "score": 0.5364583,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 601,
+      "score": 0.5368055,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 601,
+      "score": 0.5368055,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 601,
+      "score": 0.5368055,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 601,
+      "score": 0.5368055,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 601,
+      "score": 0.5368055,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 601,
+      "score": 0.5368055,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 607,
+      "score": 0.53715277,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 607,
+      "score": 0.53715277,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 607,
+      "score": 0.53715277,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 610,
+      "score": 0.5375,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 610,
+      "score": 0.5375,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 610,
+      "score": 0.5375,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 610,
+      "score": 0.5375,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 610,
+      "score": 0.5375,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 610,
+      "score": 0.5375,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 610,
+      "score": 0.5375,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 617,
+      "score": 0.5385417,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 617,
+      "score": 0.5385417,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 619,
+      "score": 0.5388889,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 619,
+      "score": 0.5388889,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 619,
+      "score": 0.5388889,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 619,
+      "score": 0.5388889,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 623,
+      "score": 0.5392361,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 623,
+      "score": 0.5392361,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 623,
+      "score": 0.5392361,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 626,
+      "score": 0.5395833,
+      "category": 1,
+      "subcategory": 22
+    },
+    {
+      "rank": 627,
+      "score": 0.5402778,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 627,
+      "score": 0.5402778,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 627,
+      "score": 0.5402778,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 627,
+      "score": 0.5402778,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 631,
+      "score": 0.540625,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 631,
+      "score": 0.540625,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 631,
+      "score": 0.540625,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 631,
+      "score": 0.540625,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 631,
+      "score": 0.540625,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 631,
+      "score": 0.540625,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 631,
+      "score": 0.540625,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 638,
+      "score": 0.54062504,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 638,
+      "score": 0.54062504,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 640,
+      "score": 0.54097223,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 648,
+      "score": 0.54131943,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 648,
+      "score": 0.54131943,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 648,
+      "score": 0.54131943,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 648,
+      "score": 0.54131943,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 652,
+      "score": 0.5413195,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 653,
+      "score": 0.5416667,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 653,
+      "score": 0.5416667,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 653,
+      "score": 0.5416667,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 653,
+      "score": 0.5416667,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 653,
+      "score": 0.5416667,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 16
+    },
+    {
+      "rank": 658,
+      "score": 0.5420139,
+      "category": 2,
+      "subcategory": 17
+    },
+    {
+      "rank": 667,
+      "score": 0.54270834,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 667,
+      "score": 0.54270834,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 669,
+      "score": 0.5434028,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 669,
+      "score": 0.5434028,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 669,
+      "score": 0.5434028,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 669,
+      "score": 0.5434028,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 673,
+      "score": 0.54375,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 673,
+      "score": 0.54375,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 675,
+      "score": 0.5440972,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 675,
+      "score": 0.5440972,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 675,
+      "score": 0.5440972,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 678,
+      "score": 0.54409724,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 678,
+      "score": 0.54409724,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 680,
+      "score": 0.54444444,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 680,
+      "score": 0.54444444,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 680,
+      "score": 0.54444444,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 680,
+      "score": 0.54444444,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 684,
+      "score": 0.5454861,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 684,
+      "score": 0.5454861,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 684,
+      "score": 0.5454861,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 684,
+      "score": 0.5454861,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 688,
+      "score": 0.54583335,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 699,
+      "score": 0.5461806,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 699,
+      "score": 0.5461806,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 699,
+      "score": 0.5461806,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 699,
+      "score": 0.5461806,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 699,
+      "score": 0.5461806,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 699,
+      "score": 0.5461806,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 705,
+      "score": 0.54652774,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 705,
+      "score": 0.54652774,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 705,
+      "score": 0.54652774,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 705,
+      "score": 0.54652774,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 709,
+      "score": 0.54722226,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 709,
+      "score": 0.54722226,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 709,
+      "score": 0.54722226,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 712,
+      "score": 0.5475694,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 712,
+      "score": 0.5475694,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 712,
+      "score": 0.5475694,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 712,
+      "score": 0.5475694,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 716,
+      "score": 0.54756945,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 716,
+      "score": 0.54756945,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 716,
+      "score": 0.54756945,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 716,
+      "score": 0.54756945,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 716,
+      "score": 0.54756945,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 716,
+      "score": 0.54756945,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 722,
+      "score": 0.54791665,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 730,
+      "score": 0.5482639,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 730,
+      "score": 0.5482639,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 730,
+      "score": 0.5482639,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 733,
+      "score": 0.5486111,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 742,
+      "score": 0.5489583,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 742,
+      "score": 0.5489583,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 742,
+      "score": 0.5489583,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 745,
+      "score": 0.55,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 745,
+      "score": 0.55,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 745,
+      "score": 0.55,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 745,
+      "score": 0.55,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 749,
+      "score": 0.5503472,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 749,
+      "score": 0.5503472,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 749,
+      "score": 0.5503472,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 749,
+      "score": 0.5503472,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 749,
+      "score": 0.5503472,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 749,
+      "score": 0.5503472,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 749,
+      "score": 0.5503472,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 756,
+      "score": 0.55104166,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 756,
+      "score": 0.55104166,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 756,
+      "score": 0.55104166,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 759,
+      "score": 0.5517361,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 767,
+      "score": 0.5520834,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 775,
+      "score": 0.55243057,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 776,
+      "score": 0.55277777,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 776,
+      "score": 0.55277777,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 776,
+      "score": 0.55277777,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 776,
+      "score": 0.55277777,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 776,
+      "score": 0.55277777,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 781,
+      "score": 0.553125,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 795,
+      "score": 0.5534722,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 795,
+      "score": 0.5534722,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 797,
+      "score": 0.5538194,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 797,
+      "score": 0.5538194,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 799,
+      "score": 0.55451393,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 799,
+      "score": 0.55451393,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 799,
+      "score": 0.55451393,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 799,
+      "score": 0.55451393,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 803,
+      "score": 0.55486107,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 803,
+      "score": 0.55486107,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 805,
+      "score": 0.5552083,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 805,
+      "score": 0.5552083,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 805,
+      "score": 0.5552083,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 805,
+      "score": 0.5552083,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 805,
+      "score": 0.5552083,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 810,
+      "score": 0.5555556,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 819,
+      "score": 0.55659723,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 819,
+      "score": 0.55659723,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 819,
+      "score": 0.55659723,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 819,
+      "score": 0.55659723,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 823,
+      "score": 0.5569445,
+      "category": 2,
+      "subcategory": 13
+    },
+    {
+      "rank": 823,
+      "score": 0.5569445,
+      "category": 2,
+      "subcategory": 14
+    },
+    {
+      "rank": 825,
+      "score": 0.5572916,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 826,
+      "score": 0.5572917,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 826,
+      "score": 0.5572917,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 826,
+      "score": 0.5572917,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 826,
+      "score": 0.5572917,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 826,
+      "score": 0.5572917,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 826,
+      "score": 0.5572917,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 832,
+      "score": 0.5576389,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 840,
+      "score": 0.55833334,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 840,
+      "score": 0.55833334,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 840,
+      "score": 0.55833334,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 24
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 25
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 26
+    },
+    {
+      "rank": 843,
+      "score": 0.55868053,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 851,
+      "score": 0.5590278,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 851,
+      "score": 0.5590278,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 851,
+      "score": 0.5590278,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 851,
+      "score": 0.5590278,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 855,
+      "score": 0.559375,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 855,
+      "score": 0.559375,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 855,
+      "score": 0.559375,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 855,
+      "score": 0.559375,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 859,
+      "score": 0.5597222,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 868,
+      "score": 0.56006944,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 877,
+      "score": 0.56076384,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 877,
+      "score": 0.56076384,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 879,
+      "score": 0.5607639,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 880,
+      "score": 0.56180555,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 881,
+      "score": 0.56215274,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 881,
+      "score": 0.56215274,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 883,
+      "score": 0.56284726,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 883,
+      "score": 0.56284726,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 885,
+      "score": 0.5631944,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 885,
+      "score": 0.5631944,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 887,
+      "score": 0.56319445,
+      "category": 2,
+      "subcategory": 18
+    },
+    {
+      "rank": 887,
+      "score": 0.56319445,
+      "category": 2,
+      "subcategory": 19
+    },
+    {
+      "rank": 887,
+      "score": 0.56319445,
+      "category": 2,
+      "subcategory": 20
+    },
+    {
+      "rank": 887,
+      "score": 0.56319445,
+      "category": 2,
+      "subcategory": 28
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 891,
+      "score": 0.5638889,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 899,
+      "score": 0.5642361,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 913,
+      "score": 0.5645833,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 913,
+      "score": 0.5645833,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 913,
+      "score": 0.5645833,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 913,
+      "score": 0.5645833,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 917,
+      "score": 0.56527776,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 917,
+      "score": 0.56527776,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 917,
+      "score": 0.56527776,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 917,
+      "score": 0.56527776,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 917,
+      "score": 0.56527776,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 917,
+      "score": 0.56527776,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 917,
+      "score": 0.56527776,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 924,
+      "score": 0.565625,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 924,
+      "score": 0.565625,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 924,
+      "score": 0.565625,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 924,
+      "score": 0.565625,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 928,
+      "score": 0.56631947,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 928,
+      "score": 0.56631947,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 928,
+      "score": 0.56631947,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 928,
+      "score": 0.56631947,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 928,
+      "score": 0.56631947,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 933,
+      "score": 0.56666666,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 933,
+      "score": 0.56666666,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 933,
+      "score": 0.56666666,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 933,
+      "score": 0.56666666,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 937,
+      "score": 0.56701386,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 938,
+      "score": 0.5677083,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 938,
+      "score": 0.5677083,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 940,
+      "score": 0.56805557,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 941,
+      "score": 0.56840277,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 941,
+      "score": 0.56840277,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 941,
+      "score": 0.56840277,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 941,
+      "score": 0.56840277,
+      "category": 2,
+      "subcategory": 31
+    },
+    {
+      "rank": 941,
+      "score": 0.56840277,
+      "category": 2,
+      "subcategory": 32
+    },
+    {
+      "rank": 941,
+      "score": 0.56840277,
+      "category": 2,
+      "subcategory": 33
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 947,
+      "score": 0.56875,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 955,
+      "score": 0.5690972,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 956,
+      "score": 0.5697917,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 966,
+      "score": 0.5701389,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 966,
+      "score": 0.5701389,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 966,
+      "score": 0.5701389,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 966,
+      "score": 0.5701389,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 970,
+      "score": 0.5708333,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 979,
+      "score": 0.5711806,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 979,
+      "score": 0.5711806,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 979,
+      "score": 0.5711806,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 979,
+      "score": 0.5711806,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 979,
+      "score": 0.5711806,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 979,
+      "score": 0.5711806,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 985,
+      "score": 0.5715278,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 986,
+      "score": 0.571875,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 986,
+      "score": 0.571875,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 986,
+      "score": 0.571875,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 989,
+      "score": 0.5729167,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 990,
+      "score": 0.5732639,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 990,
+      "score": 0.5732639,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 992,
+      "score": 0.5736111,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 992,
+      "score": 0.5736111,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 992,
+      "score": 0.5736111,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 995,
+      "score": 0.57361114,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 996,
+      "score": 0.57430553,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 996,
+      "score": 0.57430553,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 996,
+      "score": 0.57430553,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 996,
+      "score": 0.57430553,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1000,
+      "score": 0.57500005,
+      "category": 2,
+      "subcategory": 22
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1001,
+      "score": 0.5753472,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1011,
+      "score": 0.57534724,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 1011,
+      "score": 0.57534724,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1011,
+      "score": 0.57534724,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1011,
+      "score": 0.57534724,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1015,
+      "score": 0.57569444,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1015,
+      "score": 0.57569444,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1015,
+      "score": 0.57569444,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1015,
+      "score": 0.57569444,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1019,
+      "score": 0.5763889,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1027,
+      "score": 0.5767361,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1027,
+      "score": 0.5767361,
+      "category": 2,
+      "subcategory": 35
+    },
+    {
+      "rank": 1027,
+      "score": 0.5767361,
+      "category": 2,
+      "subcategory": 36
+    },
+    {
+      "rank": 1030,
+      "score": 0.57743055,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1030,
+      "score": 0.57743055,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 1030,
+      "score": 0.57743055,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 1030,
+      "score": 0.57743055,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1030,
+      "score": 0.57743055,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1035,
+      "score": 0.57777774,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1035,
+      "score": 0.57777774,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1035,
+      "score": 0.57777774,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1035,
+      "score": 0.57777774,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1039,
+      "score": 0.578125,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1039,
+      "score": 0.578125,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1039,
+      "score": 0.578125,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1042,
+      "score": 0.57881945,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1043,
+      "score": 0.5798611,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1051,
+      "score": 0.5809028,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 1051,
+      "score": 0.5809028,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1051,
+      "score": 0.5809028,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1051,
+      "score": 0.5809028,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 1051,
+      "score": 0.5809028,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1051,
+      "score": 0.5809028,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1051,
+      "score": 0.5809028,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1058,
+      "score": 0.58124995,
+      "category": 2,
+      "subcategory": 23
+    },
+    {
+      "rank": 1058,
+      "score": 0.58124995,
+      "category": 2,
+      "subcategory": 27
+    },
+    {
+      "rank": 1060,
+      "score": 0.58125,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1061,
+      "score": 0.58194447,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1071,
+      "score": 0.58229166,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1071,
+      "score": 0.58229166,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1071,
+      "score": 0.58229166,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1071,
+      "score": 0.58229166,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1071,
+      "score": 0.58229166,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1071,
+      "score": 0.58229166,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1077,
+      "score": 0.58263886,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1078,
+      "score": 0.5833333,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1078,
+      "score": 0.5833333,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1078,
+      "score": 0.5833333,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1081,
+      "score": 0.584375,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1081,
+      "score": 0.584375,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1083,
+      "score": 0.5847222,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 1084,
+      "score": 0.5854167,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1084,
+      "score": 0.5854167,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 41
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 42
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1086,
+      "score": 0.5864583,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1095,
+      "score": 0.5868056,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1095,
+      "score": 0.5868056,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1095,
+      "score": 0.5868056,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1095,
+      "score": 0.5868056,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1099,
+      "score": 0.58784723,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1099,
+      "score": 0.58784723,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1099,
+      "score": 0.58784723,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1099,
+      "score": 0.58784723,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1103,
+      "score": 0.5888889,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1103,
+      "score": 0.5888889,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1103,
+      "score": 0.5888889,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1103,
+      "score": 0.5888889,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1107,
+      "score": 0.58993053,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1108,
+      "score": 0.5902778,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 1109,
+      "score": 0.5909722,
+      "category": 2,
+      "subcategory": 47
+    },
+    {
+      "rank": 1109,
+      "score": 0.5909722,
+      "category": 2,
+      "subcategory": 40
+    },
+    {
+      "rank": 1109,
+      "score": 0.5909722,
+      "category": 2,
+      "subcategory": 43
+    },
+    {
+      "rank": 1109,
+      "score": 0.5909722,
+      "category": 2,
+      "subcategory": 44
+    },
+    {
+      "rank": 1113,
+      "score": 0.5923611,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1113,
+      "score": 0.5923611,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1115,
+      "score": 0.59305555,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 1116,
+      "score": 0.59340274,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1116,
+      "score": 0.59340274,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1116,
+      "score": 0.59340274,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1116,
+      "score": 0.59340274,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1116,
+      "score": 0.59340274,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1116,
+      "score": 0.59340274,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1122,
+      "score": 0.5944444,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1122,
+      "score": 0.5944444,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1122,
+      "score": 0.5944444,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1125,
+      "score": 0.5954861,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1125,
+      "score": 0.5954861,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1127,
+      "score": 0.59791666,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1127,
+      "score": 0.59791666,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1127,
+      "score": 0.59791666,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1127,
+      "score": 0.59791666,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1131,
+      "score": 0.5986111,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 1132,
+      "score": 0.5989583,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1132,
+      "score": 0.5989583,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1132,
+      "score": 0.5989583,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1135,
+      "score": 0.59999996,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1135,
+      "score": 0.59999996,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1135,
+      "score": 0.59999996,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1135,
+      "score": 0.59999996,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1139,
+      "score": 0.60138893,
+      "category": 1,
+      "subcategory": 20
+    },
+    {
+      "rank": 1140,
+      "score": 0.60347223,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1141,
+      "score": 0.6045139,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1141,
+      "score": 0.6045139,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1141,
+      "score": 0.6045139,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1141,
+      "score": 0.6045139,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1145,
+      "score": 0.60694444,
+      "category": 1,
+      "subcategory": 19
+    },
+    {
+      "rank": 1146,
+      "score": 0.60798615,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1147,
+      "score": 0.60902774,
+      "category": 2,
+      "subcategory": 50
+    },
+    {
+      "rank": 1147,
+      "score": 0.60902774,
+      "category": 2,
+      "subcategory": 51
+    },
+    {
+      "rank": 1149,
+      "score": 0.6125,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1150,
+      "score": 0.6135417,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1151,
+      "score": 0.6180556,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1152,
+      "score": 0.61909723,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1153,
+      "score": 0.6236111,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1154,
+      "score": 0.6246528,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1155,
+      "score": 0.6291667,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1156,
+      "score": 0.6305555,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1157,
+      "score": 0.63506943,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1158,
+      "score": 0.63611114,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1159,
+      "score": 0.640625,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1160,
+      "score": 0.64166665,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1161,
+      "score": 0.6461805,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1162,
+      "score": 0.6472223,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1163,
+      "score": 0.6517361,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1164,
+      "score": 0.6527778,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1165,
+      "score": 0.65729165,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1166,
+      "score": 0.6583333,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1167,
+      "score": 0.6628472,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1168,
+      "score": 0.67083335,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1169,
+      "score": 0.68194443,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1169,
+      "score": 0.68194443,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1171,
+      "score": 0.68368053,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1172,
+      "score": 0.69305557,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1172,
+      "score": 0.69305557,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1174,
+      "score": 0.6947916,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1174,
+      "score": 0.6947916,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1176,
+      "score": 0.70416665,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1177,
+      "score": 0.7059027,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1178,
+      "score": 0.70729166,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1178,
+      "score": 0.70729166,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1180,
+      "score": 0.71840274,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1180,
+      "score": 0.71840274,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1182,
+      "score": 0.72812504,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1182,
+      "score": 0.72812504,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1184,
+      "score": 0.73263896,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1184,
+      "score": 0.73263896,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1186,
+      "score": 0.7392361,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1186,
+      "score": 0.7392361,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1186,
+      "score": 0.7392361,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1186,
+      "score": 0.7392361,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1190,
+      "score": 0.74375004,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1190,
+      "score": 0.74375004,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1190,
+      "score": 0.74375004,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1190,
+      "score": 0.74375004,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1194,
+      "score": 0.75034726,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1194,
+      "score": 0.75034726,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1196,
+      "score": 0.7548611,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1196,
+      "score": 0.7548611,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1198,
+      "score": 0.80277777,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1199,
+      "score": 0.8138889,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1199,
+      "score": 0.8138889,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1201,
+      "score": 0.81562495,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1202,
+      "score": 0.825,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1202,
+      "score": 0.825,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1204,
+      "score": 0.8267361,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1204,
+      "score": 0.8267361,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1206,
+      "score": 0.8361111,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1207,
+      "score": 0.8378472,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1208,
+      "score": 0.87326384,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1208,
+      "score": 0.87326384,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1210,
+      "score": 0.8777778,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1210,
+      "score": 0.8777778,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1212,
+      "score": 0.8788194,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1212,
+      "score": 0.8788194,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1214,
+      "score": 0.8805556,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 1215,
+      "score": 0.8833333,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1215,
+      "score": 0.8833333,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1217,
+      "score": 0.884375,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1217,
+      "score": 0.884375,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1219,
+      "score": 0.88611114,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 1220,
+      "score": 0.88888896,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 1220,
+      "score": 0.88888896,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1220,
+      "score": 0.88888896,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1223,
+      "score": 0.89027774,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1224,
+      "score": 0.8913194,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1224,
+      "score": 0.8913194,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1226,
+      "score": 0.89444447,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 1227,
+      "score": 0.8947916,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1228,
+      "score": 0.8958334,
+      "category": 2,
+      "subcategory": 21
+    },
+    {
+      "rank": 1228,
+      "score": 0.8958334,
+      "category": 2,
+      "subcategory": 15
+    },
+    {
+      "rank": 1230,
+      "score": 0.89722216,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1231,
+      "score": 0.8972223,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 1232,
+      "score": 0.8986111,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 1233,
+      "score": 0.9017361,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1234,
+      "score": 0.9027778,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 1234,
+      "score": 0.9027778,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 1236,
+      "score": 0.90416664,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1237,
+      "score": 0.9055556,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 1238,
+      "score": 0.90694445,
+      "category": 1,
+      "subcategory": 10
+    },
+    {
+      "rank": 1239,
+      "score": 0.90833336,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1240,
+      "score": 0.9086805,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1241,
+      "score": 0.90868056,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1242,
+      "score": 0.91111106,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1243,
+      "score": 0.9111111,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 1244,
+      "score": 0.91284716,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1245,
+      "score": 0.91388893,
+      "category": 1,
+      "subcategory": 18
+    },
+    {
+      "rank": 1246,
+      "score": 0.9145833,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 1247,
+      "score": 0.9152778,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1247,
+      "score": 0.9152778,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1249,
+      "score": 0.915625,
+      "category": 2,
+      "subcategory": 0
+    },
+    {
+      "rank": 1250,
+      "score": 0.91944444,
+      "category": 1,
+      "subcategory": 17
+    },
+    {
+      "rank": 1251,
+      "score": 0.91979164,
+      "category": 1,
+      "subcategory": 25
+    },
+    {
+      "rank": 1251,
+      "score": 0.91979164,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1253,
+      "score": 0.92152774,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 1254,
+      "score": 0.92222226,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1254,
+      "score": 0.92222226,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1256,
+      "score": 0.92638886,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1256,
+      "score": 0.92638886,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1258,
+      "score": 0.9263889,
+      "category": 1,
+      "subcategory": 15
+    },
+    {
+      "rank": 1259,
+      "score": 0.92673606,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1260,
+      "score": 0.9284722,
+      "category": 1,
+      "subcategory": 9
+    },
+    {
+      "rank": 1261,
+      "score": 0.9291667,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1262,
+      "score": 0.9295138,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1263,
+      "score": 0.9305556,
+      "category": 1,
+      "subcategory": 15
+    },
+    {
+      "rank": 1264,
+      "score": 0.93125,
+      "category": 1,
+      "subcategory": 14
+    },
+    {
+      "rank": 1265,
+      "score": 0.93333334,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1265,
+      "score": 0.93333334,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1267,
+      "score": 0.93368053,
+      "category": 2,
+      "subcategory": 1
+    },
+    {
+      "rank": 1268,
+      "score": 0.93472224,
+      "category": 1,
+      "subcategory": 15
+    },
+    {
+      "rank": 1269,
+      "score": 0.9375,
+      "category": 1,
+      "subcategory": 27
+    },
+    {
+      "rank": 1270,
+      "score": 0.93819445,
+      "category": 1,
+      "subcategory": 14
+    },
+    {
+      "rank": 1271,
+      "score": 0.94062495,
+      "category": 1,
+      "subcategory": 24
+    },
+    {
+      "rank": 1272,
+      "score": 0.9444444,
+      "category": 1,
+      "subcategory": 26
+    },
+    {
+      "rank": 1273,
+      "score": 0.9451389,
+      "category": 1,
+      "subcategory": 14
+    },
+    {
+      "rank": 1274,
+      "score": 0.9767361,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 1274,
+      "score": 0.9767361,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 1276,
+      "score": 0.98645836,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 1276,
+      "score": 0.98645836,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 1278,
+      "score": 0.9947917,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 1279,
+      "score": 0.9961806,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 1279,
+      "score": 0.9961806,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 1281,
+      "score": 0.9993055,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1281,
+      "score": 0.9993055,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1283,
+      "score": 1.0038195,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1283,
+      "score": 1.0038195,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1285,
+      "score": 1.0045139,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 1286,
+      "score": 1.0059028,
+      "category": 2,
+      "subcategory": 2
+    },
+    {
+      "rank": 1286,
+      "score": 1.0059028,
+      "category": 2,
+      "subcategory": 8
+    },
+    {
+      "rank": 1288,
+      "score": 1.0090277,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1288,
+      "score": 1.0090277,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1290,
+      "score": 1.0135417,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1290,
+      "score": 1.0135417,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1292,
+      "score": 1.0142361,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 1293,
+      "score": 1.0173612,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1293,
+      "score": 1.0173612,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 1295,
+      "score": 1.01875,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1295,
+      "score": 1.01875,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1297,
+      "score": 1.0218749,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1298,
+      "score": 1.0232639,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1298,
+      "score": 1.0232639,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1300,
+      "score": 1.0239583,
+      "category": 2,
+      "subcategory": 11
+    },
+    {
+      "rank": 1301,
+      "score": 1.0260416,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 1301,
+      "score": 1.0260416,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 1301,
+      "score": 1.0260416,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 1301,
+      "score": 1.0260416,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 1301,
+      "score": 1.0260416,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 1306,
+      "score": 1.0270834,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1306,
+      "score": 1.0270834,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 1308,
+      "score": 1.0284722,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1308,
+      "score": 1.0284722,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1310,
+      "score": 1.0305556,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 1310,
+      "score": 1.0305556,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1310,
+      "score": 1.0305556,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1310,
+      "score": 1.0305556,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1310,
+      "score": 1.0305556,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1310,
+      "score": 1.0305556,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1316,
+      "score": 1.0315971,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1317,
+      "score": 1.032986,
+      "category": 2,
+      "subcategory": 3
+    },
+    {
+      "rank": 1317,
+      "score": 1.032986,
+      "category": 2,
+      "subcategory": 5
+    },
+    {
+      "rank": 1319,
+      "score": 1.034375,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 1319,
+      "score": 1.034375,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 1319,
+      "score": 1.034375,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 1319,
+      "score": 1.034375,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 1319,
+      "score": 1.034375,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 1324,
+      "score": 1.0350695,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1324,
+      "score": 1.0350695,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1324,
+      "score": 1.0350695,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1324,
+      "score": 1.0350695,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1324,
+      "score": 1.0350695,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1329,
+      "score": 1.0368056,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1329,
+      "score": 1.0368056,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 1331,
+      "score": 1.0388889,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 1331,
+      "score": 1.0388889,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1331,
+      "score": 1.0388889,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1331,
+      "score": 1.0388889,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1331,
+      "score": 1.0388889,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1331,
+      "score": 1.0388889,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1337,
+      "score": 1.0413194,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1338,
+      "score": 1.0427083,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 1338,
+      "score": 1.0427083,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 1338,
+      "score": 1.0427083,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 1338,
+      "score": 1.0427083,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 1338,
+      "score": 1.0427083,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 1343,
+      "score": 1.0434028,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1343,
+      "score": 1.0434028,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1343,
+      "score": 1.0434028,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1343,
+      "score": 1.0434028,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1343,
+      "score": 1.0434028,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1348,
+      "score": 1.0465279,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1348,
+      "score": 1.0465279,
+      "category": 2,
+      "subcategory": 12
+    },
+    {
+      "rank": 1350,
+      "score": 1.0472223,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 1350,
+      "score": 1.0472223,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1350,
+      "score": 1.0472223,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1350,
+      "score": 1.0472223,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1350,
+      "score": 1.0472223,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1350,
+      "score": 1.0472223,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1356,
+      "score": 1.0510416,
+      "category": 2,
+      "subcategory": 4
+    },
+    {
+      "rank": 1357,
+      "score": 1.0517361,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1357,
+      "score": 1.0517361,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1357,
+      "score": 1.0517361,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1357,
+      "score": 1.0517361,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1357,
+      "score": 1.0517361,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1362,
+      "score": 1.0524305,
+      "category": 2,
+      "subcategory": 45
+    },
+    {
+      "rank": 1362,
+      "score": 1.0524305,
+      "category": 2,
+      "subcategory": 38
+    },
+    {
+      "rank": 1362,
+      "score": 1.0524305,
+      "category": 2,
+      "subcategory": 29
+    },
+    {
+      "rank": 1362,
+      "score": 1.0524305,
+      "category": 2,
+      "subcategory": 34
+    },
+    {
+      "rank": 1362,
+      "score": 1.0524305,
+      "category": 2,
+      "subcategory": 30
+    },
+    {
+      "rank": 1367,
+      "score": 1.0569445,
+      "category": 2,
+      "subcategory": 48
+    },
+    {
+      "rank": 1367,
+      "score": 1.0569445,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1367,
+      "score": 1.0569445,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1367,
+      "score": 1.0569445,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1367,
+      "score": 1.0569445,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1367,
+      "score": 1.0569445,
+      "category": 2,
+      "subcategory": 39
+    },
+    {
+      "rank": 1373,
+      "score": 1.0614583,
+      "category": 2,
+      "subcategory": 37
+    },
+    {
+      "rank": 1373,
+      "score": 1.0614583,
+      "category": 2,
+      "subcategory": 52
+    },
+    {
+      "rank": 1373,
+      "score": 1.0614583,
+      "category": 2,
+      "subcategory": 49
+    },
+    {
+      "rank": 1373,
+      "score": 1.0614583,
+      "category": 2,
+      "subcategory": 46
+    },
+    {
+      "rank": 1373,
+      "score": 1.0614583,
+      "category": 2,
+      "subcategory": 39
+    }
+  ]
+}
