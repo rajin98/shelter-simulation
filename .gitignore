@@ -3,7 +3,6 @@ visualizer/out/
 solver/target/
 *.class
 !requirements*.json
-*.png
 *.md
 *.json
 .claude
